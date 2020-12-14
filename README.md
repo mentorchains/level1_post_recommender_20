@@ -1,6 +1,8 @@
 # About the project
 Level 1 ML project (2020): Forum post recommender system.
 
+<b style='color:red'> PLEASE DO NOT PUSH YOUR CODE TO MAIN, BUT TO YOUR NAMED FOLDER UNDER THE SPECIFIC MODULE </b>
+
 # How to contribute
 
 1- Clone the repo to your local system: `git clone https://github.com/mentorchains/level1_post_recommender_20.git`
