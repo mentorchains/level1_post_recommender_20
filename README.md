@@ -14,5 +14,5 @@ Level 1 ML project (2020): Forum post recommender system.
 
 4- After each time you make some changes or add some files:  
 **To add the changes :** `git add .`  
-**To commit the changes :** `git commit -m "Write a meaningful message in imperative form"`    
+**To commit the changes :** `git commit -m "Write a meaningful message in imperative form that describes what the commit is all about."`    
 **To push the changes so everyone can see them:** `git push`
