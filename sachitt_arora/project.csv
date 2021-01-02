@@ -1,0 +1,1657 @@
+,Title,Category,Post Info,Comments
+0,Welcome to the Mycroft Community,General Discussion,"Welcome to the Mycroft Community
+
+wedidit.jpg1024×1024 177 KB
+ 
+We did it! We funded on Kickstarter, and now we’ve started this forum in order to have a place where we can build a community around Mycroft and promote participation in the project. If you are interested in contributing, you’re at the right place.
+Who is this site for?
+
+People generally interested in the Mycroft Project.
+Developers interested in contributing to the Mycroft Project (or related projects).
+Those interested in A.I., the Internet of Things (IoT), and home automation.
+Anyone interested in open source, Linux, and the Raspberry Pi - in relation to voice control.
+
+Please take the time to make a post and share who you are and what you are interested in doing with Mycroft! Use the Introductions category for your post!
+Miss out on our Kickstarter? Check out our extended campaign on Indiegogo!
+We released our secret sauce, the source code, dubbed: Mycroft Core - check it out!
+Join the Mycroft Slack Channel to chat about the project!","We look forward to hearing from everyone! 
+
+Nice to see that we bet on the right project 
+
+A very lovely introduction!  I am new to the community and hope to make relevant contributions.!
+
+Nice work guys…
+keep it up…
+regards.
+
+I bought my mark a few months ago. I didn’t have time to play with it, but I would like to use more of it.
+Is there a release schedule for updates?
+Is there how to page?
+Can I add skills to it that I wrote?
+
+You can find docs on the mycroft right here. Release schedule for update is biweekly, usually on thursdays. You should expect a new update this thursday. To allow other people to install your skills either using MSM (mycroft skills manager) or the install skills skill, you can do a pull request on this repo, to add your skill on there.
+Hope this helps!
+
+
+
+
+ system:
+
+Mycroft
+
+
+Really love the incredible project!
+
+Hi everyone,
+I found out about Mycroft through the Plexpod community in KC. I work for a global health organization called Partners In Health that provides healthcare, engages in health system strengthening activities, educates and trains health workers, and co-develops and implements open source electronic medical record systems (EMR) in low and middle income countries.
+The platform we use for EMR is called OpenMRS. Users include country governments, NGOs, and private hospital systems. The platform is used in over 60 countries, with millions of patient records. One of the biggest challenges in moving from a “retrospective” to a “point-of-care” data collection model is the burden and interruption of workflow to clinicians who are already burdened with paperwork. In many countries, the government requires paperwork and the EMR data is supplemental.
+I hope that somewhere out in the OpenMRS ecosystem, there is someone who would want to test Mycroft AI running on the same laptop or tablet that is running their EMR application. My organization is not positioned to do this yet, because the locations where we work are too rural and internet bandwidth is a constraint. But I hope that this idea might catch someone’s idea, and might take hold somewhere else in the world.
+Please feel free to reach out for more information or you can join the OpenMRS community directly if you are a developer who is looking for an opportunity to begin the discussion about integrating voice with health data.
+
+Hello to the group. I just purchased a donation for the Mark-II unit, and I also downloaded and installed the core to a Linux workstation to satisfy my impatience and learn more while I’m waiting for the Mark-II unit.
+I know only a little bit about coding in general, but I’m looking forward to learning how to build my first Skill.
+The Skill I’m hoping to build is the ability for the Ai to go to a monitoring web site and report back the values in a given frame.
+I have solar panels on my home, they are grid-tied through a Solar Edge inverter which communicates data to their web site. That web site has a “public” view web page with the current statistics on my Solar Energy system.
+https://monitoringpublic.solaredge.com/solaredge-web/p/kiosk?guid=3d71e75a-b8cb-48ef-8d00-6f36fd077737
+I’m looking forward to seeing how far I can get.  Wish me luck!
+~Eric
+
+Great Job Guys…
+Well Done
+
+Hi, I ma José (jrd10) from France.
+Great project, congratulations 
+Not (still) a user. I will see if I can contribute in French.
+Use MyCroft with Ubuntu and soon with RPi 3+ :).
+Best Regards, jrd10
+tricassinux.org"
+1,Mic level near at max but no audio input detected,None,"
+I have a screenshot attached, anyone know why this may be?
+","Hi @calvin.frakes1 and welcome!
+What is you microphone?"
+2,Move It reminder,Skill Suggestions,"Move It
+User story:
+_As a working from home user I want this Skill to have timing and reminder features so that I can achieve standing up reminders every 30 min’s.
+eg. I would like to voice activate the skill perhaps with a prompt for the number of min’s. The skill will run a background timer and voice announce me to “stand up” or “sit down”.
+**No other services or data sets or platforms should be needed.
+**There are similar but not the same skills with the needed continuing run of the timer. **
+**“Start Moving” or something similar. **
+**Mycroft would speak: “Move It is started”; “Stand Up”; “Sit Down”; “Move It is now stopped” **
+What Skill Settings will this Skill need to store? (Error- the skills settings page could not be accessed)
+Other comments?
+Sitting for extended periods of time has been identified as a health issue. Many folks are acquiring desks that allow them to stand or sit while working on their computers. This skill would be of benefit to ones health with a regular reminder to stand up at your desk. Or just to get up for a moment to stretch and move your position.","Hi @Allan_May
+That is a great skill suggestion 
+
+I’m not sure, but isn’t this better realized within the framework of reminder skill by adding a reoccuring reminder?
+intent: remind me of standing up every 10 minutes
+
+Well I wasn’t sure that a recurring reminder could be setup as needed. I thought a recurring reminder would repeat at a specific day and time. For the move it we need a reminder, say, every 30 min’s or whatever the user wants. But we also need to control when to start the reminders and when to end them, for example at the beginning and the end of the work day, however many hours that might be.
+
+My bad, i mixed up  mycroft-timer with mycroft-reminder (indeed the skill just recognizes timedate). Yet the same would apply to mycroft-timer (which extracts duration and has named timers) I’ll look into it.
+
+Have rewritten the skill passages to also host recurring timer. I have to look at the intents/vocs/regex to get it right but it works in german language. If you don’t mind (or anybody else  ) i would post the test git here.
+
+Sorry I wish I could help but I’m not a programmer. But I do appreciate your efforts on my Move It suggestion!
+
+unluckily i just nearly broke my finger and now i carry a wrist-finger splint. So this might take a little longer
+
+Yikes! So sorry to hear about that. Maybe programmers should have special insurance for their fingers"
+3,Unable to register device,Site Feedback,"
+Just got started with Mycroft on a Pi today.
+Setup was easy, but I’m not able to register my device on the web page.
+The web page loads ok, the side bar on the left is working, but Add Device or Profile just comes up with an empty page.
+I have tried different computers and my phone and logged in with email and github, the result is always the same.
+Anybody else has the same problem or is there a known fix for it?
+","It seems the site has a problem at the moment. You’re not the only one with this isse.
+I think the MyCroft team will take a look for it when they’re back in the office on monday.
+The team should have a pleasant free time on sunday .
+
+Hi SpencersGithub,
+i have the same issue. Seems to be that one of their severs is down. Maybe for maintenance or any other reason.
+I think we can just wait until they recognize that their users are facing that issue! Or if you want to, just write a mail via the contact-form as I did. But i think in the meanwhile they already got a lot of them, so maybe just waiting as Thorsten wrote might be enough for now. 
+Kind regards,
+Lumpy
+
+grafik1857×289 36.8 KB
+
+
+Thanks for the quick replies.
+I will check again tomorrow.
+
+Nooooo 
+I setup my new rpi4 with seeed v2 mic array and now I can not register them…
+So sad.
+
+Hi all, thanks for reporting the outage, the team are looking into this now, and will let you know when it’s been resolved.
+
+Now! Wow, that’s cool.
+Please keep us informed here and THX.
+
+The issue should be resolved now, see the incident report here
+
+Å
+
+
+Hi there,
+On Sunday the 10th of November, one of the Mycroft service API endpoints became unavailable,  preventing certain pages from loading correctly. This included the Profile, My Devices and Add Device pages of Home.mycroft.ai. As per our standard incident response process, a report for this incident was created and is available for the Community to review.
+Our engineering team investigated and restored this service in a matter of hours, and all services are now fully functional.
+A standard post-incident review is being conducted, and the team has taken immediate actions to reduce the chance of this type of incident reoccurring in the future, as well as to improve automatic recovery if a service does become unresponsive.
+We apologize for those who could not access all of their account information during this time, and appreciate our Communities responsiveness in reporting the issue. The Communities support in identifying and debugging issues assists us in continually improving Mycroft’s services.
+Thanks
+The team at Mycroft AI
+
+I have this same issue now
+
+So do I. I’ve tried Chrome, Chromium and Firefox for Linux with no success.
+
+There is an ongoing issue, have look here: Pairing is currently offline
+
+It seems to be back.
+
+I’m having this problem too. 22/12/2020
+
+I’ve been having this issue as well. I get a “Internal Server Error” from https://account.mycroft.ai/api/devices
+
+There is an ongoing issue, the team is working on it.
+(come to the chat to get more updates)"
+4,Mark II Update - November 2020,Mark II,"Originally published at:			https://mycroft.ai/blog/mark-ii-update-november-2020/
+This month most of the team braved the airports and came together in person for a two week sprint. The aim was to have a fully working device by the time we went home. Spoiler alert – we did it!
+Obligatory COVID note:
+We took a lot of precautions to pull this off. With everyone taking tests before, during and after the sprint. Remaining isolated until test results were confirmed. Using the best PPE available. Everyone is now safely back home with negative tests.
+Audio output
+Very quickly we discovered that the SJ201 rev 3 had an issue reliably outputting audio. This hadn’t come up in our testing to date as the sound works when first booted. However after varying amounts of time the output cut out and would not return until rebooting the device.
+As you can imagine, this was an unexpected turn of events, consuming a sizable portion of the sprint efforts.
+The issue was tracked down to an incompatibility in the USB of the XMOS chip and Raspberry Pi 4. It works fine on a Pi 3 but that causes other problems, so we decided to work around it and use the I2S bus instead. As a temporary work around, we were able to add a jumper from one of the Pi’s GPIO pins to the XMOS chip allowing us to reset the chip in software anytime the failure occurred. This meant we could continue prototyping with the current board, however it is not a final solution.
+SJ201 Rev 4
+As we mentioned in the last update we were already planning another revision of the board in order to switch the audio output to use a direct I2S connection. The change to I2S will also address this audio output issue as we will no longer be needing the USB driver.
+Our expectation is that this will be the final revision before we start shipping the Mark II Dev Kits.
+
+
+Mark II Dev Kit with 3D printed audio chamber2560×1707
+
+Mark II Dev Kit with 3D printed audio chamber
+
+Added in Rev 4
+
+I2S Audio Amp TAS5806MD
+Changed audio path from USB to I2S. Better quality and gets around bug in
+XMOS/Raspberry Pi 4 over USB.
+
+Removed in Rev 4
+
+I2S to Line Out IC
+MAX9744 Amp
+
+Pantacor
+An exciting new addition to the Mark II is Pantacor, a comprehensive and robust software life-cycle management solution.
+This is an open source solution that uses container technologies to securely and reliably maintain edge services on Linux devices. That can be anything from home WiFi routers through to industrial control systems.
+Cut the jargon! What the hell does all that mean for the Mark II?
+Most importantly this provides a very stable and resilient operating system and update service. If something goes wrong on your Mark II, the device will automatically roll back to a previously working state. This is the type of feature that you will never notice because it “just works”.
+We are really excited to be working with the Pantacor team. We have contracted them to set up the infrastructure and integrations needed to get us started, so we can stay focused on Mycroft’s core capabilities and getting the hardware shipped.
+Future planning
+While the team was together, we also took some time to map out some of the larger changes we want to make. We’ll be sharing these ideas and draft specifications with the Community over the coming weeks and months to get your input and help prioritize these longer-term projects.","“By putting down a $1 deposit per speaker we’ll hold your place in line and ship them when mass production starts in late 2019 or early 2020.”
+Well maybe you should update the shop then…"
+5,"Fresh install of Picroft on RPi4, hangs",Support,"So just got a new RPi4, and Seeed ReSpeaker 6 array mic board, 64GB mSD. Put on Picroft, went through the setup. Had to do some manual install for the mic board, as the default install doesn’t support installing/setting it up. Took me a little bit, but via the Audio Troubleshooting figured out how to set the Pulse & Mycroft mic/speaker settings. Got it up and running, managed to get it paired with home.mycroft.ai, so I start talking to it!
+I’ve run into several times where I had to restart it or reboot the RPi because mycroft hangs and goes unresponsive after it starts trying to perform a task. I have some small heatsinks on the CPU and other chips. With it running but hung, the vcgencmd measure_temp gave me ~72-73C. Running idle after a mycroft-stop all gives me ~60C after waiting several minutes. So with it running it’s elevated temps, but not excessively high.  After doing mycroft-start all and idling at the mycroft-cli-client, it’s running about 62-63C.
+The hanging always seems to occur after I ask mycroft something, I see it get the utterance, try and figure it out, and then I see a response but no voice plays and then it becomes unresponsive to new voice commands, and the Mic Level on the lower right doesn’t move.
+It’s as if the audio output/TTS hangs, and causes the rest of mycroft to hang and not accept new input.","Can you play regular audio out of this with out issues?  Also have you checked in the logs (/var/logs/mycroft/) to see if there’s any clues?
+
+I do sometimes get audio response from mycroft, and the mic test I do get the recording back out (headphones via the Seeed jack).
+In the audio.log, apparently I’m getting an alsa error. That must be the issue, time to troubleshoot that.
+[quote]ALSA lib pcm_hw.c:1822:(_snd_pcm_hw_open) Invalid value for card
+aplay: main:828: audio open error: No such file or directory[/quote]
+What’s the mycroft config options for the audio output? Is it just the play_wav_cmdline and play_mp3_cmdline settings via mycroft-config edit system?   It seems that those got reset after one of the restarts I did. They’re back to plughw:ArrayUAC10,0 instead of plughw:2,0 which was working before.
+Hm. Looks like something is going on with the audio stuff, I’ll have to dig into that more and troubleshoot. I might just rebuild from a bare Raspian, do manual install of Mycroft.
+
+Did you ever figure this out, I’m having similar issues?
+
+Just to give more context (from the chat) just in case from @fsa317 possible issue:
+
+image1282×396 43.2 KB
+
+
+Picroft is still 32bit. Wasn’t there someting about 32bit and that big(ger) amount of ram?
+Issue sounds like running out of memory
+
+
+
+
+ j1nx:
+
+Picroft is still 32bit. Wasn’t there someting about 32bit and that big(ger) amount of ram?
+
+
+The memory limit for 32-bit system is 4Gb, Picroft usage is pretty far from this limit (except if a custom skill is leaking)."
+6,Testing and Feedback for Linux Rhythmbox Skill,Skill Feedback,"
+How to install Rhythmbox Skill
+Linux Software Required
+
+
+Ubuntu: apt install rhythmbox
+
+Linux Mint: apt install rhythmbox
+
+Arch: pacman -S rhythmbox
+
+Install skill via git:
+
+cd ~/mycroft-core/skills
+git clone https://github.com/dwfalk/rhythmbox-skill.git
+
+mycroft-pip install fuzzywuzzy
+
+How to test Rhythmbox Skill
+
+Setup Rhythmbox with music, playlists, etc.
+Utterances…
+◦ “play **”
+◦ “play ** playlist”
+◦ “play something by **”
+◦ “shuffle ** playlist on Rhythmbox”
+◦ “pause”
+◦ “resume”
+◦ “next song”
+◦ “previous song”  [limited function within Rhythmbox]
+◦ “stop Rhythmbox”
+
+Skill Pass Criteria
+
+Skill searches the Rhythmbox song and playlist databases for the best match and queues it up.
+
+Skill Failure Criteria
+
+Skill does not install
+Skill fails to interface with Rhythmbox
+Skill does not play music when requested
+
+Feedback
+
+I am new to the mycroft forums and to github
+On github at https://github.com/dwfalk/rhythmbox-skill/issues/new
+
+In response to this topic
+
+","Hi dwfalk,
+I’ve dropped a new issue in your repo with some trouble I had accessing the file system, but wanted to say thanks for creating Rhythmbox Skill!
+
+Great feedback.  Thank you.
+
+gez-mycroft’s suggestion over on github simplifies installing the skill.  I added a requirements.txt file with the fuzzywuzzy dependency.  So now you only need to issue the following command to install the skill…
+mycroft-msm install https://github.com/dwfalk/rhythmbox-skill
+
+Thanks for your work  , installation worked like a charm.
+CPS_match_query on the other hand, has me pretty puzzled it never finds what i’m asking for.
+Sometimes it doesn’t start music because it thinks stuff is not in my library  …
+rhythmbox-skill_dwfalk - INFO - Artist Utterance: eminem
+Playback Control Skill - INFO - No matches
+rhythmbox-skill_dwfalk - INFO - Artist Probabilities: (‘Eminem’, 100)
+And it doesn’t do anything else… I am sure it should work  ,
+do you have any insights about the common play skill skill class?
+i am trying to use it in my own music skill and i am also having problems adapting it to  common play   is it me using it wrong ? thank you again  have a nice day
+
+colla69…If you wish, you can open an issue over on the github site I reference for skill feedback and post the pertinent contents of your Rhythmbox database (~/.local/share/rhythmbox/rhythmdb.xml) and I’ll take a peek.
+You can also look at my code on the github site to get an idea on how to work with common play skill.  I was a little intimidated with it myself, at first.  But took on the challenge of converting my original code to it and am rather happy I did.
+
+Hey @dwfalk…
+i found out what the problem is  … it has notihg to do with your skill …
+The common play framework has a timeout, you should be getting an answer from the search queries in max 1 sec time…
+thats why i got
+
+“Playback Control Skill - INFO - No matches”
+before
+“rhythmbox-skill_dwfalk - INFO - Artist Probabilities: (‘Eminem’, 100)”
+
+My computer isn’t fast enough  (it’s getting old ^^ and my rhythmdb.xml is almost 20 MB and increasing )…
+That meand Your Skill passed all my tests on a smaller library… all the problems i had seem to arise because of the performance of my pc…
+At the moment I am trying to write a Filecrawler that can load my data faster hoping i can structure the data to speed up the search… I’ll be developing a test version for my own player skill. If your intrested I’ll let you know when i have something working…
+Wishing you a nice day  ,
+colla
+
+nice ability. I have found that the complete request is always sent to playlist, artist and title. “Hells Bells by AC DC” instead of “Hells Bells” and artist “AC DC”. Normally, the mycroft player module can separate this. I use German. how is that with you? Maybe my translation in the mycroft player module is not correct either.
+
+I had in mind to add “song by artist” to the skill.  Its been a while since I tinkered around.  I appreciate the feedback.  It’ll stir me to get back to doing some coding. Guten Tag!
+
+I published a new version of the skill that includes “title by artist” support.
+
+supper works for me. I have only the problem with my 35mb database. would it help to change the XMLParser to iterparse?
+
+Thanks for the suggestion.  This was a hobby project of mine.  I’m not the most literate on the ins and outs of Python and XML, having just a basic programming background.  A Google search is leading me in the direction of lxml, interparse, and using element.clear.  But I am open to any recommendations.
+
+I opened an issue over on the skill’s github site to track benchmarking alternative xml logic.  I’ll use it to comment on any progress or potential avenues in supporting larger Rhythmbox databases.  Please feel free to visit and leave comments as well on any suggestions you might have regarding the efficient processing of the Rhythmbox xml databases.  Regards.
+
+the reading at the start of the Skill could accelerate the whole thing
+https://mycroft-core.readthedocs.io/en/stable/source/mycroft.util.html#get-cache-directory
+
+I’m now caching the Rhythmbox xml database in skill class list variables.  The first time accessing the skill, it will cause the cache to be built.  Subsequent calls to the skill will use the cache.  Hopefully that will help individuals with large Rhythmbox databases.
+
+The skill goes right for songs / artists.
+Might I suggest to add a command like “play album **” maybe with possibility to specify artist (“play album XX by artst XX”)?
+
+Thanks for the suggestion “docjuhnk”.  I’ve added album and album by logic.  I want to be careful not to weigh down the speed of the skill.  But I kinda anticipated this request and can see where it would be handy.
+I really appreciate everyone that uses the skill.  Its nice to be able to contribute something to the open source community and to the potential that Mycroft exhibits.
+
+Works like a charm!
+I can’t really say, that it has slowed my installation. (I have a little over 5k tracks / 460 Albums / 270 interprets in my database.)
+Thanks for your quick reply and updating the skill.
+
+@unwisebard contributed code to support Genres and also some tweaks to shorten search times.  Have a look.
+
+@dwfalk this is just what I was looking for, Thanks! I just got it installed and will give it a whirl. 
+Works like a charm. Mycroft now pulls from my local music dir. Next, I’ll get a map to my NAS.  Thanks again."
+7,Thoughts and advice,General Discussion,"Hi, new here.
+I work in devops, bash, python, and swift, both back-end tool sets, and pretty pretty GUI based tools, to support teammates. current setup smart home was done for convenience of others, and is driving me batty… consists of wifi switches, (tuya) and some bulbs for a fan that “had to have a dimmer on the light” and some tuya based it seems wifi fan controllers (without dimmers), and roughly 10 amazon echo dots throughout the house… now everytime the wifi hiccups, or the oh so reliable spectrum internet dies, everything obviously is manual control… minor inconvenience, but the major problem is things seem to go wonky and switches dont reconnect in smart life right, and nothing wants to work right… so looking at using a raspberry pi to setup an AP for the switches with tuya-convert and OTA reflashing, and decided to look down the rabbit hole of possibly getting my own voice assistant, to replace alexa, that i could build my own skill for to control the switches, etc, and have it to where in the internet does indeed go down, since my wifi is on battery, and the pi would be on battery (big battery), possibly have it setup to where i could still voice control my crap… because its still an inconvenience, no matter how minor… to have things in the house not work right, due to an internet outage… so i realize id be replacing the eco dots with a different device, possibly even pis, just wondering if this is going to be worth my time to attempt… or is there a better route or just live with the frustrations","
+
+
+Hi @matts,
+I’m not sure to understand what your question is (that is a very long sentence that you wrote here ).
+Is your question does Mycroft worth your time? If yes then I would say it’s always good to learn new things and setup and using Mycroft will be a great source of new knowledge.
+Does Mycroft could replace Alexa and other, I would answer yes (this is my opinion) if you know what you want and if you have some technical skills (which seems to be your case).
+
+
+
+
+ matts:
+
+replacing the eco dots with a different device
+
+
+it’s def worth your time 
+"
+8,Running setup.py install for PyAudio ... error,None,"Hi, every one!
+One year ago I tied start using mycroft but nothing. Now I have suse 15.2, core i5 and same problem.
+Maybe some progress appeared through one year? Can you help me?
+Building wheels for collected packages: PyAudio, psutil, pocketsphinx, fann2, gtts-token
+Building wheel for PyAudio (setup.py) … error
+collect2: error: ld returned 1 exit status
+error: command ‘gcc’ failed with exit status 1
+ERROR: Failed building wheel for PyAudio
+Running setup.py clean for PyAudio
+Building wheel for psutil (setup.py) … error
+ERROR: Command errored out with exit status 1:
+ERROR: Failed building wheel for psutil
+Running setup.py clean for psutil
+Building wheel for pocketsphinx (setup.py) … error
+ERROR: Failed building wheel for pocketsphinx
+Running setup.py clean for pocketsphinx
+Building wheel for fann2 (setup.py) … error
+Running setup.py install for PyAudio … error","Hi @Stslit,
+Sorry to hear that.
+You are not suppose to run the  setup.py   script, a lot of dependencies are required before doing this, e.g:
+   $ sudo zypper install -y git python3 python3-devel libtool libffi-devel libopenssl-devel autoconf automake bison swig portaudio-devel mpg123 flac curl libicu-devel pkg-config libjpeg-devel libfann-devel python3-curses pulseaudio
+   $ sudo zypper install -y -t pattern devel_C_C++
+
+
+How did you run the installation?
+Which procedure did you use?
+
+Try to follow this procedure: https://mycroft-ai.gitbook.io/docs/using-mycroft-ai/get-mycroft/linux#installing-via-git-clone
+
+For pyaudio specifically, it’s usually available as an OS package.
+
+Both set command:
+
+The last version is already installed.
+Nothing to  do
+
+and I used your link https://mycroft-ai.gitbook.io/docs/using-mycroft-ai/get-mycroft/linux
+
+So you did run  dev_run.sh ?
+
+Do you mean dev_setup.sh?
+Yes, but same result. “Warning: Failed to install required dependencies. Continue? y/N”
+
+Yes, sorry about the typo.
+Have you been able to install these packages in two steps?
+sudo zypper install -y git python3 python3-devel libtool libffi-devel libopenssl-devel autoconf automake bison swig portaudio-devel mpg123 flac curl libicu-devel pkg-config libjpeg-devel libfann-devel python3-curses pulseaudio
+sudo zypper install -y -t pattern devel_C_C++
+
+So, I just deploy a fresh OpenSuse 15.2 Leap, mode server install and I had no issue with the Mycroft setup.
+goldyfruit@localhost:~/mycroft-core> cat /etc/os-release 
+NAME=""openSUSE Leap""
+VERSION=""15.2""
+ID=""opensuse-leap""
+ID_LIKE=""suse opensuse""
+VERSION_ID=""15.2""
+PRETTY_NAME=""openSUSE Leap 15.2""
+ANSI_COLOR=""0;32""
+CPE_NAME=""cpe:/o:opensuse:leap:15.2""
+BUG_REPORT_URL=""https://bugs.opensuse.org""
+HOME_URL=""https://www.opensuse.org/""
+
+Services are all started.
+goldyfruit@localhost:~> mycroft-start all
+Starting all mycroft-core services
+Initializing...
+Starting background service bus
+CAUTION: The Mycroft bus is an open websocket with no built-in security
+         measures.  You are responsible for protecting the local port
+         8181 with a firewall as appropriate.
+Starting background service skills
+Starting background service audio
+Starting background service voice
+Starting background service enclosure
+
+Status from the logs, no errors, all the services are connected.
+goldyfruit@localhost:/var/log/mycroft> grep -ri connected 
+enclosure.log:2020-12-20 19:27:10.581 | INFO     | 15701 | mycroft.messagebus.client.client:on_open:114 | Connected
+enclosure.log:2020-12-20 19:27:20.839 | INFO     | 15701 | mycroft.messagebus.client.client:on_open:114 | Connected
+skills.log:2020-12-20 19:27:15.589 | INFO     | 15692 | mycroft.messagebus.client.client:on_open:114 | Connected
+skills.log:2020-12-20 19:27:15.594 | INFO     | 15692 | __main__:_start_message_bus_client:231 | Connected to messagebus
+voice.log:2020-12-20 19:27:20.780 | INFO     | 15698 | mycroft.messagebus.client.client:on_open:114 | Connected
+audio.log:2020-12-20 19:27:21.381 | INFO     | 15695 | mycroft.messagebus.client.client:on_open:114 | Connected
+audio.log:2020-12-20 19:27:37.361 | INFO     | 15695 | mycroft.audio.speech:mute_and_speak:127 | Speak: I'm connected to the internet and need to be activated.
+
+Thank you, Captain Obvious!
+Mycroft is working thing (on fresh system)!
+But some Linux users have old distros and some of them survived after several dub.
+For example, my way from 15.0 to 15.1 and 15.2.
+If you can help my, please do it.
+
+
+Thank you, Captain Obvious!
+
+You are welcome. 
+
+For example, my way from 15.0 to 15.1 and 15.2.
+
+How are we suppose to know if it’s not part of your initial message?
+
+If you can help my, please do it.
+
+I’ll have to pass and let someone less obvious and smarter to take the next part.
+
+
+
+
+ goldyfruit:
+
+I’ll have to pass and let someone less obvious and smarter to take the next part.
+
+
+Sorry goldyfruit didn’t mean to offend you. Thank you for support.
+I thought in start post any one can seen one year link old. Next year I trying start one more post. 
+
+
+
+
+ Stslit:
+
+Sorry goldyfruit didn’t mean to offend you. Thank you for support.
+
+
+All good 
+
+
+
+ Stslit:
+
+I thought in start post any one can seen one year link old. Next year I trying start one more post. 
+
+
+Yeah but in one year many things could happened but now we have more context.
+Try this (within the Mycroft  virtualenv ) and paste us the output please (we are going with baby steps):
+``$ pip install --force-reinstall --no-cache-dir PyAudio==0.2.11"
+9,Raspberry Pi 4B 8GB Docker version,Mycroft Project,"
+I want to use many servers on my RPI and store them on different docker containers. Is there any docker container version of Picroft? I saw mycroft one but I don’t know if this will be stable enough for Pi and includes autoupdate.
+","Hi @t0ssox
+Picroft is more a Linux distribution with Mycroft embedded than a Docker image.
+If you want to run Docker with Mycroft on your Pi then you only need to use the Mycroft image not the Picroft.
+No sure the Docker image provided enables the auto-update but here is the Dockerfile which will allows you to customize the image.
+https://hub.docker.com/r/mycroftai/docker-mycroft/dockerfile"
+10,No sound after changing voice,Mycroft Project,"hi everyone,
+I have an issue when changing the voice or wakeword with the website acoount page (https://account.mycroft.ai/) on my RPi3+. I have a sound output when using the british or the american voice. But when I change to the ggogle voice, there is no sound output. Did I miss something when changing to the google voice or is this an known issue?
+BR
+Eric","Hey there, is this all sound or just the text-to-speech output?
+Do you still get a wake word acknowledgement tone?
+
+Hi, there is no TTS nor a wake word acknowledgement. When I change back to british, than the there is also wake word sound, but TTS works. When I write to the CLI to tell me the weather, then I get a TTS sound output. When I write to the cli “hey mycroft”, then I get “I dont know what that means”. There is also another issue:
+When I run the command ""
+(.venv) pi@picroft:~ $ mycroft-start wakewordtest
+Already up to date.
+Initializing…
+Starting wakewordtest
+Warning: No wav files found in /home/pi/mycroft-core/test/wake_word/data/with_wake_word
+Warning: No wav files found in/home/pi/mycroftcore/test/wake_word/data/without_wake_word
+Complete!
+There seems something broken…
+Could someone please give an advise what I could do?
+
+got same problem right after installing picroft, even without switching voices - any suggestion how to repair missing files? (was paired with british voice from start)
+(.venv) pi@picroft:~ $ mycroft-start wakewordtest
+Already up to date.
+Initializing…
+Starting wakewordtest
+Warning: No wav files found in /home/pi/mycroft-core/test/wake_word/data/with_wake_word
+Warning: No wav files found in /home/pi/mycroft-core/test/wake_word/data/without_wake_word
+Complete!
+
+Does you Pi is properly connected to Internet? During the first start of the  voice service, some files are downloaded for Mimic2.
+
+yes, was connected before first boot (using picroft image). As I use respeaker2, I stopped first questions about config and installed sound before I tried to get mycroft to work
+
+These are the steps from  auto_run.sh  about the Seeed Mic Array 2.0: https://github.com/MycroftAI/enclosure-picroft/blob/buster/home/pi/auto_run.sh#L377-L398
+I’m using the same microphone on my Raspberry Pi 4, do you have any else connected (jack 3.5mm or HDMI) ?"
+11,Spotify Connect/Authorize does not work,None,"
+In Mycroft advanced skill settings, when i go on the spotify skill, click “Connect”, log into my spotify account then i get the following error message:
+INVALID_CLIENT: Failed to get client
+Can anyone help? This happens with different devices and different browsers, i suppose something with the base_URI is off, but no idea how to fix it 
+Many thanks!
+Your Spotify Struggler 
+Edit: I am living in Europe and therefore have an European Spotify account, does that matter?
+","I believe spotify continues to be an issue. See here.
+
+
+
+
+ATTENTION: Are you a Spotify User? Spotify disabled on Mycroft General Discussion
+
+
+    For no reason we can desern, Spotify has disabled Mycroft’s API access.  This was used to search their library so that Mycroft users who have paid Spotify accounts can access the music they are paying for. 
+We’ve been trying to get in touch with someone at Spotify who can clarify their policy, but have not been able to get a reply. 
+If you have a paid account, please open a support ticket with Spotify, then get up on Twitter and let @SpotifyCares know that you pay for an account and want to acce…
+  
+
+
+
+Front line support is fairly useless on this. I’d love to be able to help figure this out. Can someone on the Mycroft dev team check to see if their app is still authorized? INVALID_CLIENT seems to point to the request being rejected by Spotify because it doesn’t trust the client id that we’re returning to them for the auth request.
+
+i too see the exact same error.  looks like the the client ID (client_id=5509ac5c42cc45d7b4625d0b851a0f1e)  on the redirect from the connect button in the spotify skill is no longer valid?  Would love to get an answer to Tatorzot and others question on this from the devs. tx!
+
+I followed these steps: https://github.com/forslund/spotify-skill/issues/152#issuecomment-719563633
+And added a comment with the missing ones: https://github.com/forslund/spotify-skill/issues/152#issuecomment-734514422
+At the end all is working fine for me.
+
+I’m running this on mac with virtual box so I don’t think the github fix will work for me. Please fix spotify connect 
+
+The GitHub fix should work for you."
+12,Pairing is currently offline,Mycroft Project,"
+We are aware of a current issue preventing users from pairing new devices.
+We’re investigating now.
+","The error with the add device page should be fixed now.
+An obscure Angular 10 upgrade issue with ViewChild that was not caught.  Part of this update to Selene was upgrading from Angular 7 to Angular 10.  This was probably the biggest change to Selene since it was originally deployed.
+You can find the incident report here:
+
+
+docs.google.com
+
+
+
+Incident Report - 2020-12-18 10:53 GMT
+Incident Report: 2020-12-18 10:53 GMT STATUS:  Temporary workaround   Reporter:	Deathrealms via Chat  Symptom: Unable to pair new devices  Status: 10:54 GMT - investigating 12:14 GMT	- continuing to investigate 13:26 GMT	- continuing to investigate...
+
+
+
+
+
+
+Thanks to everyone for bringing the issues you encounter to our attention.  Big apologies for the sloppy deployment."
+13,Regex Experts Wanted!,None,"
+I am looking for some help with regex to help with some of my skills.
+If the user says play the song blue christmas the regex should return the song name as blue christmas now if the user says play the song blue christmas by elvis presley the regex should return the song name as blue christmas and the artist as elvis presley. I am able to get these working individually but not as a combined regex.
+examples.
+“play the song blue christmas”
+(the |)(song|single) (?P<title>.+)
+
+“play the artist elvis presley”
+(the |)(artist|group|band|(something|anything|stuff|music|songs) (by|from)|(some|by)) (?P<artist>.+)
+
+","I don’t think there’s a good regex for this, sadly. The problem is identifying the break between capture groups.
+Even if you try to hinge on important words, they could all be part of a song title.
+This is a brain wracking problem. I think the only good solution is to feed it into some kind of search algorithm that returns a tuple or JSON or something.
+
+Indeed a difficult one if you don’t want to risk sticking with a match that cuts the song title apart. Since regex by default is greedy, trying to match very generic regex first against the music library, then, if nothing was found, trying the more specific regex with song and artist separation, probably is safest.
+Otherwise it makes sense to be strict:
+((the song (?P<title>.+)|something)( from the artist (?P<artist>.+))?|the artist (?P<artist>.+))
+
+Matches:
+
+the song abc
+the song abc from the artist xyz
+something
+
+If playing a random song from an artist is allowed, playing any random song probably as well?
+
+
+something from the artist xyz
+the artist xyz
+
+Short from of 4., so it could be removed, but matches the example you gave.
+
+
+
+The shorter/easier the signal words and the more alternatives you allow for those, like song/single, from/by, something/anything/stuff..., artist/group/band, the more false matches occur, so either multiple regex need to be looped through to not match wrong or miss a match in the music library, or one has to live with either missing results (when full matches are allowed only) or a large number of results (when a title/artist only needs to contain the string matched by the regex), when a song title or artist name contains one or more of those signal words."
+14,Picroft - No sound with 3.5mm jack output,Mycroft Project,"Hello,
+I’m trying to set up a Picroft on a Raspberry Pi 3B with a PS3 eye and a speaker connected with a 3.5mm jack. The microphone is working fine but I have no sound… Can someone help me?
+Rémi","What have you tried so far? What was the result of that effort? What’s in the logs (/var/log/mycroft/*)?
+
+I tried to change the default sink (because it offers me two) as shown in the Mycroft AI Audio Troubleshooting guide and I also tried to configure the sound output of the rapsberry (with the raspi-config menu) so that it uses headphones. But nothing worked, no sound comes out…
+I have tried what is shown on this page (https://windowsreport.com/raspberry-pi-audio-not-working/) and I have some sound when I run “./hello_audio.bin”. But when I try something like “speaker-test -c2 -twav” (as recommended here https://www.tinkerboy.xyz/raspberry-pi-test-sound-output/), I have no sound…
+Do you think this is a problem with playing .wav?
+
+Is PulseAudio installed/used or plain ALSA? I.e. by default, Mycroft uses paplay to play wav files, so that would be a test that is coming closer. You say microphone is working fine, so you could try:
+cd /tmp
+arecord -d 3 test.wav # Then make some noise for 3 seconds
+paplay test.wav
+aplay test.wav # just to test plain ALSA as well
+
+raspi-config btw produces the following asound.conf override for the current user (~/.asoundrc):
+pcm.!default {
+  type asym
+  playback.pcm {
+    type plug
+    slave.pcm ""output""
+  }
+  capture.pcm {
+    type plug
+    slave.pcm ""input""
+  }
+}
+pcm.output {
+  type hw
+  card $AUDIO_OUT
+}
+ctl.!default {
+  type hw
+  card $AUDIO_OUT
+}
+
+AUDIO_OUT is set to the sound card ID selected. As you said there were two, most likely those were HDMI sound on ID 0 and “headphones” (=3.5mm jack) on ID 1.
+I played around with ALSA configs and Mycroft in the past (and do just now again) and I’m not sure whether the “asym” plugin is such a good idea here. You could test instead (cat for copy&paste to console):
+cat << '_EOF_' > ~/.asoundrc
+pcm.!default {
+  type plug
+  slave.pcm {
+    type hw
+    card 1
+  }
+}
+
+ctl.!default {
+  type hw
+  card 1
+}
+_EOF_
+
+Try card 0 as well, if the above does not work, or verify which ID is which card via aplay -l.
+But as you see this is all about ALSA, while I have not really an idea how PulseAudio acts on top of that.
+
+hi Remi, have you managed to fix this issue?
+I’m having the exact same issue with a raspberry pi 4, 3.5mm jack out and ps3 eye in. microphone appears to be working fine but cannot get any output from 3.5mm jack.
+
+Hi,
+No, I haven’t solved my problem yet and I must admit that I haven’t yet taken the time to try MichaIng’s advice.
+Can you try and then tell me if it worked?
+
+I have the same problem - no any sound on 3,5mm jack audio. I tried what @MichaIng said above (btw I didn’t had .asoundrc by default) but it’s still not working.
+Temporary solution for now is to reboot device only with plugged 3,5mm jack without any HDMI screen and control device using ssh.
+
+Did you also run the paplay and aplay tests?
+What I am wondering is that Picroft by default comes with PulseAudio setup, AFAIK, but raspi-config audio config configures plain ALSA. I have no experience with PulseAudio, but would assume that setting up both somehow might conflict and break sound .
+EDIT: Ah, based on the default config file, it uses plain ALSA to play wav sounds but forces HDMI output in most cases on new RPi kernel (see below): https://github.com/MycroftAI/enclosure-picroft/blob/buster/etc/mycroft/mycroft.conf
+Another thing is that Raspberry Pi with the newest kernel changed the audio interface. Prior to the change, HDMI and 3.5mm jack output was all on asound card 0, now 3.5mm jack is on card 1, if a HDMI monitor is attached. Probably Picroft didn’t adapt to this change yet.
+
+Yes, I used both commands and neither gave me a sound
+
+I just found: Sound always go through hdmi
+That symptom and workaround, which matches yours, would pretty much fit to the assumption that Picroft ships with a audio config that has not been updated yet to support the new RPi kernel audio interface changes.
+… checking source code: https://github.com/MycroftAI/enclosure-picroft/blob/buster/etc/mycroft/mycroft.conf#L2
+Okay pretty simple: The default Mycroft config forces audio output to card 0, which is HDMI only, if a monitor attached. These settings override the ALSA config.
+Please edit /etc/mycroft/mycroft.conf and either change in the first two settings ""hw:0,0"" to ""hw:1,0"" or remove the card+device options completely so that the values are ""aplay %1"" and “mpg123 %1” and hence respect the ALSA settings (~/.asoundrc).
+EDIT: Ah, since that config file will be overwritten on updates, AFAIK, better create/edit the local user override, which should be located at: $HOME/.mycroft/mycroft.conf
+EDIT2: That should fix the issue so that raspi-config selection, respectively manual ALSA configuration is respected: https://github.com/MycroftAI/enclosure-picroft/pull/150
+
+Btw, to review all sound devices and their card and device IDs, run: aplay -l"
+15,Sound always go through hdmi,Support,"hi, I have problem. I can’t get sound on 3.5mm jack output even if I change use audio output with “pack set-default-sink”
+I have only 2 output choices :
+-alsa_output.platform-bcm2835_audio.analog-mono
+
+alsa_output.platform-bcm2835_audio.analog-mono2
+even with the wizard setup when I choose 3.5mm jack sound go through hdmi…
+do you know how to get sound on 3.5mm jack?","Hi @ewaca:
+Same happens to me recently I guest you’re using a Rasberry Pi with PiCroft.
+I solved following the steps here:
+https://mycroft-ai.gitbook.io/docs/using-mycroft-ai/troubleshooting/audio-troubleshooting
+And disconneting the monitor (hdmi output) and getting access throught SSH, previously I configured the Wifi.
+Later I changed a few things  because was trying with different microphones, end up buying the “Playstation 3 Eye PS3” for input.
+Regards,
+
+Hey guys, please try to edit your mycroft.conf like mentioned here: Picroft - No sound with 3.5mm jack output"
+16,"Skill not working, probably the intent?",Support,"
+So first of all: This is my first try in skill development.
+I am unsure what’s wrong… the only thing I try is to let the skill tell me a random number. But it isn’t even finding my skill? Could someone look into this and tell me why: https://github.com/VSgit/random-number-skill
+I’m not sure if the intent and dialog are correct.
+","
+Check the logs (/var/log/mycroft/skills.log) and see why it’s not loading?
+
+I’m not sure if it’s the issue but you didn’t register you entity file.
+https://mycroft-ai.gitbook.io/docs/mycroft-technologies/padatious
+
+Its still not working… I updated init.py and now the entitys are registerd… I think.
+Do you have other ideas why its not working?
+"
+17,Google AIY VoiceKit 2 with Raspberry Pi 4 B,General Discussion,"Hello Everyone,
+I was trying to install picroft on Raspberry Pi 4B + Google AIY VoiceKit 2. But I can’t get the audio input & output working. I’ve tried https://github.com/chiisaa/picroft-google-aiy2-voicebonnet-skill and it’s not working. Can anybody help me fix it?","Hi Toms!
+The skill you tried to installed requires a working Google AIY VoiceKit 2. If it’s not the case then this skill will be useless until then.
+During the wizard (at the first boot), did you choose the following?
+  4) Google AIY Voice HAT and microphone board (Voice Kit v1)
+This should should install the required packages from Google and configure your Raspberry Pi properly. At the end a reboot is required.
+
+Thanks a lot for the quick response. I didn’t choose that option as I have Voice Kit V2.
+
+Did you run this shell script: https://github.com/chiisaa/picroft-google-aiy2-voicebonnet-skill/blob/master/install_AIY2.sh
+
+Yeah. I ran it too. No luck
+
+Fixed the issue.
+Installed Chiisaa skill from marketplace and installed it. The LED was workinf fine after that, but not the audio input & output. Finally went to /boot/config.txt and commented out the below lines.
+#dtoverlay=i2s-mmap
+#dtoverlay=googlevoicehat-soundcard
+#dtoverlay=googlevoicebonnet-soundcard
+works like a charm now.
+If you face any issues setting up Raspberry Pi4B + AIY Voice Kit V2, feel free to post in this thread so I can help.
+
+Thanks"
+18,Konnex domotica integrator,None,"Hi to all, this is my fist time…
+I have a konnex home automation system that I would like to control with mark 2 that speaks in Italian. It’s possible?
+Thanks for your reply. I am  a beginner I recently discovered mycroft and I love it.","Hi @Muttley & welcome! 
+Do you mean KNX? (if not sorry for the rest of this message)
+If yes, the solution could be to install Home Assistant (which has  KNX integration) somewhere and then install the Mycroft Home Assistant skill to command Home Assistant.
+Mycroft Home Assistant skill as a translation for Italian language.
+
+Home Assistant KNX integration: https://www.home-assistant.io/integrations/knx/
+
+Mycroft skill: https://market.mycroft.ai/skills/af6c0e65-0ec4-4481-a2c8-4991d08fca9b
+
+Italian translation: https://github.com/MycroftAI/skill-homeassistant/tree/20.08/vocab/it-it
+
+
+
+Hi goldyfruit neace to meet you.
+Thanks very much for your support. Great but it’s the same read like japanese for me.
+My son call me “Nabbo” because i haven’t skill for this.
+Yes Konnex is knx. If i understand what you tolto me, i will speak in italian with mark 2, that without home assistant make operation in my knx system. If it is how home assistant speak with knx system?
+Thank for your help. If you want i make a cake for you"
+19,Testing and Feedback for Magic-Mirror-Voice-Control-Skill,Skill Feedback,"How to install magic-mirror-voice-control-skill
+
+
+
+Install magic-mirror-voice-control-skill by …
+
+
+git clone https://github.com/dmwilsonkc/magic-mirror-voice-control-skill.git
+
+
+When you first activate the skill, Mycroft will attempt to find the ip.json which will hold the ip address of your MagicMirror. If that file does not exist Mycroft will say
+""To activate the magic-mirror-voice-control-skill I need to know the I P address of the magic mirror. What is the I P address of the magic mirror you would like to control with your voice?""
+
+
+Be ready, because Mycroft will expect an answer, and you will hear the listening chirp as soon as Mycroft finishes speaking. Be ready with the response “Set IP Address 192 dot 168 dot X dot XXX”. Replace the X’s with your MagicMirror’s IP Adress. It can be finicky. So if it doesn’t work, just say ‘Hey Mycroft’… 'Set IP Adress 192 dot 168 dot X dot XXX again. Be careful not to say ‘Set IP Adress to’ because Mycroft tries to add the word ‘to’ into the IP Adress.
+
+
+
+
+magic-mirror-voice-control-skill connects to a working install of MagicMirror from …
+
+
+https://magicmirror.builders/
+
+
+which can be installed by 'git clone https://github.com/MichMich/MagicMirror.git'
+
+
+WARNING!!! IF YOU PLAN TO HAVE BOTH MAGIC MIRROR AND MYCROFT OPERATING ON THE SAME RASPBERRY PI, YOU MUST USE MAGIC MIRROR V2.3.1 AND NOT THE LATEST VERSION 2.4.1 BECAUSE THE V2.4.1 HAS A NEWER VERSION OF ELECTRON WHICH WILL CAUSE EXTREMELY HIGH CPU USAGE AND WILL OVERHEAT YOUR RPi.
+
+
+you can use git checkout 60b9a5b
+
+
+in the config.js you will need to modify your ip whitelist like so:
+address: ""0.0.0.0"", port: 8080, ipWhitelist: [""127.0.0.1"", ""192.168.X.1/24""],
+where 192.168.X.1/24 -----------X is your local network address
+
+
+In addition to the default modules the MMM-Remote-Control module and my fork of the MMM-kalliope module must be installed for the skill to function as it does in the video. To add the modules to the config.js follow the instructions for each module.
+
+
+If you would like to see the steps I took to have both a working copy of MagicMirror and Mycroft operating on the same RPi you can check out these two links Creating my first skill… and Trying to install both…
+
+
+
+
+How to test magic-mirror-voice-control-skill
+Specify the steps the user should take to test the Skill, such as;
+
+
+Speak —hey mycroft… hide clock
+
+
+Mycroft should —remove the clock from the MagicMirror display
+
+
+Mycroft has a number of different “system action keywords”
+refresh
+restart
+reboot
+shutdown
+show
+hide
+turn on
+turn off
+update
+conceal
+display
+wake up
+go to sleep
+save
+When these system action keywords are combined with “System Keywords” like
+article details
+mirror
+monitor
+raspberry pi
+pi
+modules
+screen
+You can Reboot Pi for example or Turn Off Monitor or Save Pi or Update Mirror
+You should see the action taken, and get an audible response from Mycroft.
+
+
+There are also actions that can be directed at modules:
+hide
+show
+display
+conceal
+install
+add
+turn on
+turn off
+update
+That need to be coupled with “Module Keywords” like:
+alert
+update notification
+clock
+calendar
+compliments
+wunder ground
+traffic
+google traffic map
+email
+remote control
+news feed
+page indicator
+remote control repository
+button
+buttons
+carousel
+carousel navigation
+connection status
+hide all
+glance
+module scheduler
+on screen menu
+tabulator
+bitcoin
+ethereum
+lice
+stock
+stocks
+In all, Mycroft can interact with 340 different modules. But the only commands that Mycroft will take action are on modules that are actually installed on the MagicMirror. Like hide clock, or show email, or turn off weather for example.
+
+
+Mycroft will respond to every intent that is recognized with an action which you will see on the mirror and a verbal response from the success.dialog:
+done
+complete
+success
+as you wish
+by your command
+If the command doesn’t make sense, like install raspberry pi, Mycroft should respond with incrorrect.dialog.
+‘That command is not valid, please restate it’ or
+‘I cannot follow that command, please say it a different way’
+‘That command does not make sense, please try again’
+If a module is not installed, Mycroft will respond:
+“That module does not appear to be installed.” or
+“I cannot find that module installed on the magic mirror.”
+Where feedback on magic-mirror-voice-control-skill should be directed to:
+Feedback is preferred here on this post, or via [Mycroft Chat] -> @dmwilsonkc  (https://chat.mycroft.ai","@dmwilsonkc,
+Very interested in this project but currently don’t have the hardware to make it happen. It is on my wish list though. Few questions (unrelated to the skill).
+
+How big is the mirror and display?
+Did you use Glass or Acrylic?
+Could you have a larger mirror with smaller display in one region of the mirror?
+Can the MM be a separate installation (hardware) to mycroft?
+
+Looks great by the way.
+
+@pcwii I have not built the physical mirror yet. My plan is to use an old 32” LCD monitor and acrylic mirror. As far as using a smaller display with a larger mirror, it is all up to you and your personal preference. You can use separate installations of Mycroft and Magic Mirror. You can even use this skill with a Mark 1 and a MagicMirror as long as it is on the same network, and the mirror has the proper modules installed and the IP whitelist is configured in the mirror’s config.js
+
+I’m love your skill iv got to say and after finding out about picroft I would like to us this ai with my MagicMirror2, I’m running the latest MagicMirror2, you mentioned about over heating issues is this with no pi cooling or not as I have a heat sink and fan on the cpu and ram and a heat sink on the smsc chip?? Or is it better to just downgrade the mirror version, thanks for the great work, just one more thing is there any more progress with the skill??
+
+@Jmh474 You can use any version of MagicMirror you like as long as the MMM-Remote Control Module and my branch of the MMM-kalliope Module  are installed. My concern about the overheating is because I had both the MagicMirror and Picroft installed on the same RPi. If you experience overheating issues, you can always use a seperate RPi for Picroft, so long as they are on the same network and have access to the MM’s ip address. You could also use the skill (so long as the modules are installed on the Mirror) with a Mark 1 and quite probably a Mark II when they ship.
+The the skill works by sending http requests to the MagicMirror, so as long as the modules are installed and you’ve properly whitelisted the Picroft’s ip, it should work perfectly. 
+
+@Jmh474 Oh… I haven’t been able to do anymore work on the skill for quite some time. I’m not sure what other functionality you’re looking for, but I’m super busy with work and I’m not sure when I could get to it. If you’ve got cooling with your mirror overheating will probably not be a problem for you, I am using a basic RPi 3b with a 16gb sd card. Nothing fancy, but overheating is a consideration for me.
+
+thanks for the fast reply not much else i wanted really just asking if your still tinkering with the skill, but again grate work
+
+as soon as the magic mirror server is not active, you will get a second error error message every second
+“Bei der Verarbeitung der Anfrage ist ein Fehler im Skill Magic Mirror Voice
+Control Skill aufgetreten.”  pretty nerf.
+
+@gras64 I will work on error handling for that event. Sorry.
+
+How can we add more modules into the “availablemodules.json” file?
+
+@Anthony_36 You can create a Pull Request for the modules you want and I can add them. You could add them yourself but they will be replaced on an update, so you could create a backup of that file after you’ve added the modules you’d like added in case the skill gets updated. If you look at it, it is a simple json file and the parts for each module you want added are pretty self explanatory. If you do a PR please include a link to the module’s url. I will update it, but not if I have to hunt for the module.
+Submit the PR here
+
+I thought that I must do much more for it to work. So if I add in availablemodules.json a small array containing the module’s url, mycroftname etc like all the others it will work just like that? If so I will do ti my self with a back up folder as you mentioned. Thank you for the tip.
+
+@gras64 So I had the opportunity to identify instances in the code that throw the “There was an error processing a request in the MagicMirrorVoiceControl skill” error. I think I have made the necessary code changes to account for possible errors and address them so the annoying “error processing request” errors no longer happen. I also made changes in the code to check for connection and whether my fork of the MMM-kalliope is installed and configured. If you get a chance, go to the magic-mirror-voice-control-skill directory in the skills directory /mycroft-core/skills/magic-mirror-voice-control-skill/ and type
+git pull
+
+To update the skill.
+Let me know if you find any other errors I need to address.
+Thx,
+Cheers!
+
+Hi @Jmh474, @gras64, and @Anthony_36
+This Skill is currently being reviewed to be included in the public Skills Marketplace. It sounds like you are all using the skill currently so your experience is the best indicator of whether it’s functioning as expected.
+Based on the skills current README.md, if a User installed this from the Marketplace, would they be able to get setup and perform all the actions described in the example intents?
+Is there anything that you think needs to be modified before it is merged into the Marketplace?
+
+hello, I have a problem with Magic-mirror-Voice-Control-Skill.
+All works before yesterday.
+Yesterday I update mycroft to the latest version 19.8.0 and now at the start of Mycroft I have the following error:
+
+2019-09-27 22:47:28.701 | ERROR    |  9316 | mycroft.skills.skill_loader:_load_skill_source:209 | Failed to load skill: magic-mirror-voice-control-skill (ImportError(""No module named 'mycroft.messagebus.client.ws'"",))
+Traceback (most recent call last):
+  File ""/home/pi/mycroft-core/mycroft/skills/skill_loader.py"", line 202, in _load_skill_source
+('.py', 'rb', imp.PY_SOURCE)
+  File ""/usr/lib/python3.5/imp.py"", line 234, in load_module
+return load_source(name, filename, file)
+  File ""/usr/lib/python3.5/imp.py"", line 172, in load_source
+module = _load(spec)
+  File ""<frozen importlib._bootstrap>"", line 693, in _load
+  File ""<frozen importlib._bootstrap>"", line 673, in _load_unlocked
+  File ""<frozen importlib._bootstrap_external>"", line 673, in exec_module
+  File ""<frozen importlib._bootstrap>"", line 222, in _call_with_frames_removed
+  File ""/opt/mycroft/skills/magic-mirror-voice-control-skill/__init__.py"", line 31, in <module>
+from mycroft.messagebus.client.ws import WebsocketClient
+ImportError: No module named 'mycroft.messagebus.client.ws'
+2019-09-27 22:47:28.730 | ERROR    |  9316 | mycroft.skills.skill_loader:_communicate_load_status:280 | Skill magic-mirror-voice-control-skill failed to load
+
+
+Any suggestion? how fix it?
+Thanks a lot
+
+I do not know why this error is occurring. Obviously if it happened after the update, something changed with Mycroft’s code. We can ask @gez-mycroft to look into what may have changed with Mycroft-core’s web socket.
+
+
+
+
+ dmwilsonkc:
+
+Obviously if it happened after the update, something changed
+
+
+Solved…
+I made that change al the issue disappear:
+
+image736×562 139 KB
+
+
+image924×253 108 KB
+
+
+I have the problem “No module named” also with many other skills. it seems to me that the dependent rent for updates are not installed properly. no idea.
+
+Hey, checkout this change to the Reminder Skill to see how you can switch it over to the new format.
+
+
+github.com/MycroftAI/skill-reminder
+
+
+
+
+
+
+Switch to MessageBusClient
+
+WebsocketClient was deprecated and replaced with MessageBusClient
+
+  by forslund
+  on 12:03PM - 02 Sep 19 UTC
+
+
+  changed 1 files
+  with 2 additions
+  and 2 deletions.
+
+
+
+
+
+
+
+
+@gez-mycroft Thanks! I’ve been swamped at work so I haven’t really had a chance to look at this. I’ll update the skill to the MessageBusClient, but I probably won’t be able to get to it for a couple of weeks. Thanks, Dave."
+20,Sonos controller skill - testing and feedback,Skill Feedback,"My first attempt at making a skill, any feedback will be greatly appreciated
+Sonos controller skill
+A simple mycroft skill to control sonos speakers
+Description
+Uses the SoCo library to control sonos speakers
+You can set a default speaker in the settings, otherwise a random active speaker will be chosen at initialisation
+
+sonos_gui670×969 219 KB
+
+Examples
+
+“sonos play”
+“sonos pause”
+“sonos next”
+“sonos previous”
+“sonos louder / volume up”
+“sonos quieter / volume down”
+“sonos shuffle on”
+“sonos shuffle off”
+“sonos playlist playlist_name”
+“sonos playlist playlist_name in the living room”
+“sonos play album album_name”
+“sonos set living room (as active speaker)”
+“search for sonos speakers”
+“show album (art)” (requires mycroft-gui)
+“sonos what’s playing?”
+
+Specific music services (e.g. Spotify) are not (yet) implemented as I do not have any accounts
+github
+
+
+
+GitHub
+
+
+
+boxledev/sonos-controller
+A simple mycroft skill to control sonos speakers. Contribute to boxledev/sonos-controller development by creating an account on GitHub.","Great work! Will try it soon…
+There is another sonos-control-skill, but this wasn’t updated for more than 1,5 years and has no support for Mycroft-GUI.
+
+Hi. I wanna test and can help in development as I have a spotify account. I am completely new to mycroft. I just got a picroft device up and running, I forked your gihub repo and am trying to install the skill using ````  msm install . I think I am missing something in the skill installation process… 
+
+2020-10-13 15:44:01.465 | WARNING  |  9035 | soco.data_structures_entry | DATA STRUCTURE UPGRADE FAIL. Unable to upgrade music library data structure to music service data structure because an entry is missing for DidlFavorite in DIDL_NAME_TO_QUALIFIED_MS_NAME. This should be reported as a bug.
+2020-10-13 15:44:01.474 | WARNING  |  9035 | soco.data_structures_entry | DATA STRUCTURE UPGRADE FAIL. Unable to upgrade music library data structure to music service data structure because an entry is missing for DidlFavorite in DIDL_NAME_TO_QUALIFIED_MS_NAME. This should be reported as a bug.
+2020-10-13 15:44:01.482 | ERROR    |  9035 | mycroft.skills.skill_loader:_create_skill_instance:271 | Skill __init__ failed with KeyError('resources')
+Traceback (most recent call last):
+
+If you are interested in discussing via Slack: https://join.slack.com/t/sonosmycroft/shared_invite/zt-i9k7v004-m0vqLr2q8cXRh4Z_LPb8Ag
+
+hi. there was indeed a problem with one of the commands. Should be fixed now.
+Can you try again?
+
+I will try your changes. I think there was another issue, that I workarounded in a branch: https://github.com/lnguyenh/sonos-controller (I forked your repo). Some of my playlists did not have “resources”. But in my fix I think I broke another command. Tonight or tomorrow I will try to get things working with Spotify, and fix the command I broke.
+Example of playlists missing a key in a dict.
+
+Screen Shot 2020-10-13 at 17.28.432296×554 111 KB
+
+Try the slack link from my post above if you wanna discuss faster 
+
+Darn, it seems that getting more direct access to spotify (to search, play specific playlist or albums) is not possible anymore via SoCo :
+
+
+github.com/SoCo/SoCo
+
+
+
+
+
+
+
+
+META ISSUE Music service authentication issue
+
+
+
+        opened 09:54AM - 06 Jan 18 UTC
+
+
+
+
+          KennethNielsen
+        
+
+
+
+
+
+As explained by @lawrenceakka in #428:
+Sonos has changed the way in which music service account data can be accessed. It used...
+
+
+Bug
+Confirmed
+
+
+
+
+
+
+
+(see the readme here as well: https://github.com/SoCo/SoCo
+
+I didn’t know about the spotify (and other music services) change of policy. Makes me glad to have my music locally 
+About your problem with resources, can you elaborate a bit on that? I’ve not seen any playlists that do no have a resource, how would they get played if there’s no location for them? Can you play them through the official sonos app? Are they local music files or part of a music service such as spotify? in case of the latter I fear we can only add a fix to skip importing unsupported playlists.
+
+Hello boxledev
+I think it could be easier to discuss either on
+
+the official chat from mycroft (https://chat.mycroft.ai/community/channels/dev just dm me there)
+the temporary slack that I setup: https://join.slack.com/t/sonosmycroft/shared_invite/zt-i9k7v004-m0vqLr2q8cXRh4Z_LPb8Ag
+
+
+I could show you some samples in an easier way, and continue the discussion.
+But anyway. Even if I skip the favorites that dont have resources, I get a upnp error when I try to play the first favorite that does have a URI (see the screenshot above, i sed the uri from “broken politics”). I start to feel a bit pessimistic :).
+Last thing I tried is to use the “spotipy” python library and ttrying to use soco to play things on sonos from the data I get from spotipy, but so far, no success.
+
+There is a PR on SoCo project to bring back the music services (Spotify, etc…).
+
+
+github.com/SoCo/SoCo
+
+
+
+
+
+
+
+
+[WIP] Bring music services back
+
+
+SoCo:master ← KennethNielsen:bring_music_service_back
+
+
+
+        opened 08:48PM - 29 Nov 20 UTC
+
+
+
+
+          KennethNielsen
+        
+
+
+
++376
+-109
+
+
+
+
+
+
+
+
+
+
+
+This is great news! I see you are contributing to the soco project. Once they release a new Soco version, feel free to also contribute to this skill. I started this skill as a first project to try and get to know mycroft, and for me local control was sufficient. But it would be nice to expand the possibilities. Unfortunately my sonos setup is quite limited, I only have 2 speakers, one in each room, so it’s hard for me to test different setups and combinations (and not frustrate my significant other  )"
+21,Mycroft-config in Mark I,Support,"
+Hello everybody,
+after some month closed in a box, i’ve just reimaged my Mark I device with the latest sw.
+Now I would like to study it deepr, starting from the language.
+First step, dirst stop: how can I use, or find, mycroft-config? Have i to use it?Or i’ve just to manage conf files?
+Thanks in Adavance,
+Nic
+","Did you already read through the documentation on mycroft.conf?
+
+Hello Dominik,
+yes i have: at  the moment i’m using that file in order to setup my Mark 1 and use Italian Language.
+I’m going ahead in that way.
+i was just looking for Configuration Manager Utility
+I think it could be helpfull for me, a good way to start… isn’t it? and, exist it?
+Thanks in advance,
+Nic
+
+You can edit mycroft.conf directly or use the configuration manager tool. Both will have same result if done properly. Config-manager should be a bit easier and safer in case you are not familiar with editing  json-files.
+
+Eh… that’s the point! Where is this tool? have i to install it? Have i to call to from a specific folder?
+
+Log into Mycroft via SSH, then issue mycroft-config command on the console,e.g. mycroft-config set lang ""es-es""
+to set language to spanish.
+
+
+
+
+ Dominik:
+
+mycroft-config set lang “es-es”
+
+
+bash: mycroft-config: command not found
+
+but mycroft-cli-client works?
+which version number is shown in the upper right corner of the cli-client, it should read “mycroft-core 20.8.0”?
+if not, there is something wrong with your setup/environment."
+22,Initial thoughts and a few questions,General Discussion,"Hi everyone, I just thought I’d share my initial experiences with Mycroft and hopefully get some up-to-date answers while I’m at it.
+I bought a Pi 4B, a Blue Snowball mic and some Creative Pebble 2 speakers. Installing/imaging Picroft was easy with Etcher. Booted up, HDMI output didn’t work so checked my router for the DHCP-allocated IP address and SSH’d in. No problems so far other than having to wait a while until initial boot had finished (before I could connect) with no way of knowing (I’ve since installed the Finished Booting skill).
+The first thing I did was change the robotic British male voice to the much better American male voice. I’m British so I would have preferred a Brit but the difference in quality made this a no-brainer (and I understand the local vs cloud processing reasons). But here’s my first question. I read that my subscribing to Mycroft you get better voices using Mimic2, but my American voice says it’s already using that. Another post says enable American male beta while it’s still free. What’s the state of play with this as of right now? Are there actually more/better paid-for voices?
+Then I followed the instructions to set up a wireless connection and rebooted. All fine, but I feel like maybe the wireless credentials could be added on Mycroft Home for people less comfortable with the linux command line.
+I added/configured my Home Assistant server and said “Hey Mycroft, turn on the hot water”. Boom. Hot water turned on. What a great start. Then I realised that was about all I could do with Home Assistant (unless I’m missing something), I couldn’t use its existing connections to my Sonos speakers, heating/climate controls, alarm system, cameras etc.
+I wasn’t expecting to be able to say “Hey Mycroft, play me some Elvis on Sonos in the sitting room” right away, but that was certainly a goal. “Hey Mycroft, boost the heating” was another.
+So next step, hook up a music service. I generally use Youtube Music (forced “upgrade” from Google Play Music), but that didn’t seem to be available, which is ok - I have Spotify Premium as well. That skill seems to have OAuth problems and can’t authorise to Spotify. I saw the thread about a workaround which I will try later, but right now I just wanted some music playing. I have Amazon Prime too so I tried the Amzn music skill but again, that doesn’t work anymore. I was running out of options. I managed to link it to my local Emby server (I had to force using a password on the local network or it wouldn’t authorise but at least it worked) and finally got some music playing. That’s fine if I want to listen to any one of thousands of my mp3s from the 1990s but the availability of streaming means that my local song collection is hideously out-of-date.
+I feel a basic step like linking a music service should be easier than this!
+I’d be happy to contribute to skills but my python is practically non-existent. If they were written in PHP I’d have churned out a bunch of pull-requests by now. Guess I’d better start learning python…
+One final question - the whole process of answering questions or commands seems quite slow. I see the text output of the response and then a few seconds later it’s synthesised into speech. Is that a normal delay? Would something stronger than a Pi 4B make a difference or is that because I’m using a voice that’s coming from the Mycroft servers? Can I replicate that system locally for a faster spoken response?
+Thanks for building a great tool though, I don’t mean to be critical I was just quite surprised that to get things to work you have to be pretty technical and have time to fiddle (I am/have both) but of course that’s what happens with free/open-source/community-driven software. Keep up the good work and I will start swotting up on python!","Hi Misha,
+Welcome  to the community, I joined few weeks ago and I hear you on the issues you got and for sure things could be improve to ease the Mycroft journey. This is with people feedback that it’s begin.
+I was really annoyed by the Spotify skill issue, which I know is not Mycroft community issue but a decision from Spotify to shut the API for this voice assistant. I tried the work around, not very user friendly but at the end it worked.
+About Sonos, there are couple skills available:
+
+
+https://github.com/lnguyenh/spotify-sonos-bot-skill which only work for one speaker and requires to install Node JS and Spotify
+
+https://github.com/boxledev/sonos-controller which only work for one speaker and with local library.
+
+I’m currently building a Sonos skill[1] (yeah another one…) which will work on any Sonos speakers you have and with different services (Spotify, Amazon Music, Local library, etc…).
+This skill will be based on   SoCo  Python library which will directly connect to Sonos to retrieve the token sor the different registered services, they are trying to fix[2] the issue with the music services.
+There are multiples way to improve the response time. For me it was the following improvements that made me stay with Mycroft.
+
+Add  tsched=0  to  module-udev-detect in  /etc/pulse/default.pa which improved a lot the wake word (reboot required, the process reload/restart didn’t work).
+Reduce the   ""recording_timeout_with_silence""   timeout from  3.0 to  1.0  second increase the speed of the request.
+Use Google Voice as TTS has been a speed gain too.
+Use Cloudflare DNS   1.1.1.1  which is has a pretty good response time.
+Make sure your Raspberry Pi has a good Wi-Fi connection.
+
+[1]https://github.com/smartgic/mycroft-sonos-controller-skill
+[2]https://github.com/SoCo/SoCo/pull/763
+I hope it helps.
+
+
+
+
+ Misha:
+
+“Hey Mycroft, play me some Elvis on Sonos in the sitting room”
+
+
+You seem to have the right sense of where Mycroft is - intermediate-phase small-company-plus-FOSS project - but I think the more relevant problem is illustrated right here.
+That is, there are a lot more moving parts here than it might seem at first glance. First, a framework that responds to “play” - because lots of skills might be able to “play” - will go find the skill that’s most confident it can play “me some Elvis.” But, wait, what about those extraneous words? What if there’s a better-matching skill, but it would only respond to “Elvis”? What if a skill wants to disambiguate between Elvises Presley and Costello?
+But say it comes across clean, and the best-choice skill says “I can play you some Elvis.” Now it needs to do a whole separate thing with Sonos.
+And there are implications here, as well. Worth mentioning that if it tried to find a skill to play “me some Elvis on Sonos in the sitting room” that’s just going to fail, because no catalog will find that.
+But, if the correct granularity is accomplished - and I don’t think this exists right now, but I could be entirely wrong because I’ve never used any of the relevant skills - the “play” framework needs to feed the remainder of the input back into the intent parsers. That is, it needs to retain, “Spotify is ready to play Elvis,” and, having correctly sliced off the rest, feed “on Sonos in the sitting room” back into the works.
+Then the Sonos skill has to say, “I can do that!” Except its intent wasn’t fed any “play ,” that information is being retained elsewhere. What needs to happen now is:
+
+The Sonos skill needs to open a new audio source for playback, or the Spotify skill needs to do it and then communicate back
+The Sonos skill needs to set that source’s output to whatever it uses to route audio, and route that source to your sitting room
+The Spotify skill has to switch to that output
+The Spotify skill starts playback
+Mycroft needs to know that two possible meanings of “stop” or “stop playback” are  “[pause/terminate] the running Spotify connection [then close the corresponding Sonos connection and end process]”
+
+No small feat. It’ll get there, but wow that’s a lot of moving parts and complex evaluations.
+
+It actually just occurred to me that there’s even more to it! Let’s whittle the utterance down.
+“Play x in y” - is that a location, or an application, or is “in” part of the name of the thing to play? Heck, you might say, “Play Star Trek picture in picture.” Now we’re off to the races. What’s “Star Trek picture” and what application can play it “in picture?” Oh, “picture in picture” is a thing that your <desktop skill/BigScreen/whatever> can do. Okay. Which Star Trek? WHOA there are over 100 episodes of that! Which one do you want to watch, or should we just pick one? Or maybe you expect a particular streaming service to pick up where you left off. You didn’t specify. The skill may or may not ask you to clarify, depending whether it thinks that’s what you want it to do.
+“Play x on y” - Same basic problem. Is y a service or a device?
+“Play x at y” - Location or volume?
+“Start x with y” - This doesn’t even have to be playback.
+Indeed, “play” could mean “open this video game!”
+Common frameworks for skills like these will interrogate the compatible skills, which will estimate their confidence that you meant to invoke that skill. Each skill needs to account for whichever of those possibilities apply. This stuff is hard!
+
+Thank you goldyfruit - I’ve already installed Sonos Controller and it works well although it could do with a few tweaks. I’ll look out for your skill in the future. Thanks also for the speed suggestions, I will try them out tomorrow!
+
+Thanks for your reply ChanceNCounter, I wasn’t really expecting it to know that I prefer Presley to Costello 
+I agree there are a lot of moving parts. But it doesn’t have to be quite so complicated when you break it down. Play [song/album/artist] on Sonos in [location].
+The command starts with Play so we know it’s music or a video (or possibly a game?). Then scan the whole query for a few keywords. Once we’ve found the phrase “on Sonos” then that can be used as a delimiter, the part between “Play” and “on Sonos” must be something to do with a music request (since that’s what Sonos is used for) - and the only thing allowed after the phrase “on Sonos” should be a location/speaker name.
+The tricky part then is only which music service to send the music query part to, if you could define a default or a search order that would help.
+It’s obviously possible because Amazon/Google have pretty much mastered it (admittedly with FAR more money/time/people/testing).
+I feel a bit sad though because I always tell people not to use Alexa etc. but at this point I couldn’t possibly recommend anyone to use Mycroft - well, any “normal”, non-technical people - the norms. I’d love it to get to a more user-friendly stage and will definitely be contributing to skills to get there in the future…
+
+Did anyone know about the subscription voices by the way?
+
+I’m a subscribed user (Yearly Membership) and I didn’t see any differences, maybe I’m missing something. I subscribed to help the project, I didn’t know we had any advantages"
+23,Question Please Help - Adapt - 6 Phrases - Embedded - Can it Do It?,Adapt Intent Parser,"
+Hello -
+I am trying to evaluate the potential for the Adapt module for our purposes.  I would like to listen for a few specific phrases and parse the speech to text without a cloud connection.  Those phrases are STOP, WAIT, GO, HELLO, YES, NO.  That’s it.
+I will have separate code that will evaluate what to do with the semantic result from those utterances (I won’t build skills with Mycroft).   Is it necessary to use the cloud to evaluate this speech or can Adapt handle this on an embedded system?
+","
+Adapt is an intent parser, and farther along the stack than you want to be. It works after speech-to-text. The STT results are fed back to the intent parsers for evaluation against their expected input. By the time you’ve invoked Adapt, you’re halfway to writing a skill, even if you aren’t descending from mycroft.skill.
+If you just want to actively listen for these phrases, and nothing else, you’re looking for a wake word listener, using several models. I’m no good with the listeners, so I won’t try to guide you, but you can start with the relevant section in the Mycroft docs, and people who do understand the listeners are active on Mycroft’s chat server.
+This would not require a cloud connection. You’d just have the listener invoke the corresponding code on the corresponding wake word.
+If you want to activate it with a button or a separate wake word, and then have it respond to one of those words, you’ll need to run the audio through some kind of STT. Some can be run locally, or LAN-hosted. Others use the cloud. Also not my area of expertise, but same deal: the docs have pointers, and people who understand the various STT engines are active in chat.
+
+
+
+
+ ChanceNCounter:
+
+If you just want to actively listen for these phrases, and nothing else, you’re looking for a wake word listener,
+
+
+Kaldi-Spotter might be worth a look for this use-case
+"
+24,Skill not updated after web configuration,Support,"
+Hi,
+I’m writing a skill which interacts with  home.mycroft.ai   for configuration purpose.
+From the web interface I’m able to see the configurations fields after the  New Settings meta to upload  from the console.
+However the  settings.json   file is not updated when I hit the save button or very randomly.
+My skill has the callback:
+def on_settings_changed(self):
+    self._setup()
+    self._run()
+
+def initialize(self):
+    self._setup()
+    self.settings_change_callback = self.on_settings_changed
+
+What am I missing?
+Thanks for your help 
+","It seems that there is some cache or lock.
+If I do a lot of code changes and then run the msm update  command then the configuration update never happens but when I restart the  skills  service then the configuration is updated.
+
+So, I confirm the workaround.
+At every commit on my skill, I have to  msm remove my_skill  ,  msm install my_skill  and  mycroft-start skills restart .
+I also tried to use the  msm update my_skill command but the result is the same.
+Do you have any idea about this behavior (I’m using the  dev version), is it something expected?
+
+That is a strange one. You certainly shouldn’t need to restart the Skill service.
+Can I clarify, is it slow to update settings and hence this is quicker, or no matter how long you wait, the settings will not update?
+
+@gez-mycroft thanks for answering.
+It worked maybe 3 or 4 times only with a very random timing (during the 10 hours I tried to debug).
+After the  skills   service restart it’s working every time that I’m changing the configuration. From what I saw it refreshing around every ~60 seconds when a changed is detected.
+
+I just saw this commit https://github.com/MycroftAI/mycroft-core/commit/b0884301a3c63280890ac78232251b51e78d546b, is it related to this?
+EDIT: No it’s not ^
+
+@gez-mycroft it’s the same thing if there is an intent update, the   skills  service will have to be restarted.
+I guess this is because the intents are read from the files and then loaded into memory."
+25,Play from youtube skill,Mycroft Project,"hi, im new in this forum and decided to create an account and share some of the skills ive done for my mycroft, ive started cleaning them and uploading to github (1st time working with github!) i have some c++ coding experience and just started coding in python, honestly the simplicity leaves me scratching my head sometimes, i like to declare the types of my variables… enough ranting ets talk about this simple skill
+PLAY FROM YOUTUBE SKILL
+This skill illustrates a very simple general music player.  It works by downloading
+music files from youtube and playing with Cvlc, at same time building an mp3 library on disk
+Its intended to be a cheap way to play anything without any account (eg. spotify) or having a music library on disk
+requires pafy and youtube-dl for youtube searching and cvlc for playing
+all my skills were for personal use and may need some adjustment, maybe some hardcoded path or not very good python practices (first time working with python like i said), suggestions are welcome 
+just noticed someone added a youtube skill to mycroft-skills repo, it may be better suited than this one, i intentionally made it a little more complex than needed hoping i could extend it later
+Known issues:
+
+Random errors downloading, i think when 1st search result is a playlist?
+Random errors loading file, probably forbidden chars in youtube result name, unsure if proposed fix worked because im unsure of error source but didnt get this error anymore
+-Stop isnt working, but i think its my mycroft instance that is broken (doesnt work in any skill)
+
+TODO:
+-Maybe converting to mp3 and use playmp3 util function so cvlc is not needed (probably would need lame then)
+or -Play youtube video url directly without download, some other dependency would be introduced instead of cvlc and no library is created but removes pafy and youtube-dl dependences
+-Handle queuing up multiple songs
+-Refine video search
+-Fix know issues
+link:
+
+
+
+GitHub
+
+
+
+JarbasAl/skill-youtube-play
+skill-youtube-play - play music form youtube in mycroft","man , this skill is great but how to add it to mycroft-core . i am also new here 
+
+just create a musicskill folder in your skills folder and download/git clone the repo to it 
+
+Hello Jarbas!
+I’ve installed your skill on my picroft (Raspberry Pi) and when I say: Hey mycroft - Play youtube I get this missage and nothing happens:
+
+
+
+Could you help me? Thanks!
+
+skill is currently not working, code was a mess, i started over but for some reason now get 0second files after download
+do not use until fixed
+
+Oh ok! I didn’t know that. I’ll wait until going to be fixed 
+
+A great skill…
+Can’t wait for you to fix it, please let us know when you do 
+Nathan
+
+So I’m guessing this never got fixed?
+As far as I can tell there isn’t currently a functional YouTube skill.
+
+There are a few out in the wild, but none that have been officially reviewed so not in the Marketplace at the moment.
+I haven’t tried any of these myself nor looked at the code, so can’t vouch for them, but if you are happy to install from untested Skills, the best bet is probably:
+
+
+
+GitHub
+
+
+
+augustnmonteiro/mycroft-youtube
+A skill to play youtube. Contribute to augustnmonteiro/mycroft-youtube development by creating an account on GitHub.
+
+
+
+
+
+
+and for desktop users wanting to actually watch the video:
+
+
+
+GitHub
+
+
+
+Shadowsith/mycroft-youtube-mpv
+Search and play for youtube videos with mpv media player - Shadowsith/mycroft-youtube-mpv
+
+
+
+
+
+
+We also have a brand new one coming that uses our new GUI Framework. So that will work for the Mark II and Plasma users:
+
+
+
+GitHub
+
+
+
+AIIX/youtube-skill
+Fork of youtube mycroft skill. Contribute to AIIX/youtube-skill development by creating an account on GitHub.
+
+
+
+
+
+
+
+I’m trying to get YouTube working on a headless Picroft and as far as I can tell not one of those works.
+I imagine it should be fairly straightforward to output a video stream to ffmpeg and have it transcode or otherwise strip out just the audio. Admittedly that does mean I need to learn how Python classes work!
+
+I put together a skill to play audio from youtube:
+
+
+
+
+YouTube Audio Skill - testing and feedback Skill Feedback
+
+
+    Mycroft skill to play audio from YouTube, using the Common Play Framework. 
+This is heavily based on the excellent I Heart Radio and Tunein skills by johnbartkiw. 
+It uses Mycroft’s VlcService for playback, and pafy / youtube-dl to fetch media details. 
+It’s still a bit of a mess, but the basics work. 
+How to install YouTube Audio Skill
+msm install https://gitlab.com/mcdruid/mycroft-youtube-audio
+
+YouTube Audio Skill connects to … YouTube, without any credentials. 
+How to test YouTube Audio Skil…
+  
+
+Feedback welcome in that thread or on gitlab.
+
+Just looking for a skill doing EXACTLY this.
+It works great so far.
+
+Hey guys,
+do you have some issue with youtube skills to recently ? Can’t load music since 2 days, it’s telling me that no result have been found , maybe youtube update something ?
+
+I am having a similar issue with my Kodi-skill, it is no longer returning youtube links either so something has changed.
+
+Acutally trying to debug it (lol first time I’m seeing python script). It seem that if you change skill to load only one music it’s working. So I think that the issue is with youtube-dl who can scrap youtube video because maybe youtube has made some changes
+
+Looks like the playlist ID is formatted differently. The regex is failing in my kodi-skill.
+These no longer work for me…
+all_video_links = re.findall(r'href=\""\/watch\?v=(.{11})', html.decode())
+all_playlist_results = re.findall(r'href=\""\/playlist\?list\=(.{34})', html.decode())
+
+These do work…
+all_video_links = re.findall(r'/watch\?v=(.{11})', html.decode())
+all_playlist_results = re.findall(r'list\=(.{18})', html.decode())
+
+Not sure this is any help to anyone but me but thought I would put it out there. I am going to dig in when I get some time.
+
+I tried to download Jarbais plugin but the github seem no longer maintained, do you have a fork ?
+
+Anyone having any luck with youtube…  having same issue with youtube skill stopped working few days ago … saying “no results found”
+
+Same issue here. Was using Mcdruid plugin and since few days it’s ‘no result found’ 
+
+There are several youtube skills scattered throughout the community. What skill(s) are having issues. From my own testing it looks like the regex is failing on most of these due to a change in youtube. I have seen a similar issue with my Kodi-skill that I am correcting.
+
+@mcdruid may be able to assist with their skill."
+26,Ddg3.py (duck duck go) needs update for Python 3.9,Support,"ddg3.py needs update for Python 3.9.
+Fix requires changing getiterator() to iter() in ddg3.py.  It’s not obvious who to contact about upstream fix, in the meantime mycroft could probably implement a patch.
+Traceback (most recent call last):
+File “/home/kelly/mycroft-core/mycroft/skills/mycroft_skill/event_container.py”, line 66, in wrapper
+handler(message)
+File “/home/kelly/mycroft-core/mycroft/skills/common_query_skill.py”, line 76, in __handle_question_query
+result = self.CQS_match_query_phrase(search_phrase)
+File “/opt/mycroft/skills/mycroft-fallback-duck-duck-go.mycroftai/init.py”, line 133, in CQS_match_query_phrase
+answer = self.respond(query[len(test):])
+File “/opt/mycroft/skills/mycroft-fallback-duck-duck-go.mycroftai/init.py”, line 109, in respond
+r = ddg.query(query)
+File “/home/kelly/mycroft-core/.venv/lib/python3.9/site-packages/ddg3.py”, line 30, in query
+return Results(xml)
+File “/home/kelly/mycroft-core/.venv/lib/python3.9/site-packages/ddg3.py”, line 49, in init
+self.results = [Result(elem) for elem in xml.getiterator(‘Result’)]
+AttributeError: ‘xml.etree.ElementTree.Element’ object has no attribute ‘getiterator’","ddg3 Python library is not part of Mycroft, you will have to speak directly to the maintainer[1] or open an issue on GitHub.
+In the mean time, you could have a look to @JarbasAl Duck Duck Go skill (from yesterday ^^) [2], it works with the same intents plus some new ones.
+$ . mycroft-core/.venv/bin/activate
+$ msm install https://github.com/JarbasSkills/skill-ddg.git
+
+[1]https://pypi.org/project/ddg3/
+[2]https://github.com/JarbasSkills/skill-ddg
+
+Best to open an issue on github for things like that.
+
+Edit: I should read better before posting…"
+27,Stock Skill Issues,Mycroft Project,"Hi
+I’m running MyCroft (PiCroft) on a Pi 4.
+from the CLI-Console: Skills returns
+mycroft-stock.mycroftai in red all other skills appear orange. Naturally I don’t think the Stock Skill is working because whenever I use the recommended example:
+
+“Stock price of Google” returns the following:  I’m sorry I don’t understand.
+
+Does anyone have a solution to this?
+Many thanks","The skill has been disabled on purpose:  Skill has been intentionally disabled by Mycroft
+This is what I got from  skills.log :
+2020-12-03 15:52:52.647 | INFO     |  3150 | mycroft.skills.skill_loader:load:185 | ATTEMPTING TO LOAD SKILL: mycroft-stock.mycroftai
+2020-12-03 15:52:52.666 | INFO     |  3150 | mycroft.skills.settings:get_local_settings:80 | /opt/mycroft/skills/mycroft-stock.mycroftai/settings.json
+2020-12-03 15:52:52.667 | INFO     |  3150 | StockSkill | The Stock Skill has been disabled due to a
+2020-12-03 15:52:52.667 | INFO     |  3150 | StockSkill | breaking change made to the 3rd party API
+2020-12-03 15:52:52.668 | INFO     |  3150 | StockSkill | For further information, see:
+2020-12-03 15:52:52.668 | INFO     |  3150 | StockSkill | https://github.com/MycroftAI/skill-stock/issues/31
+2020-12-03 15:52:52.669 | ERROR    |  3150 | mycroft.skills.skill_loader:_create_skill_instance:295 | Skill __init__ failed with Exception('Skill has been intentionally disabled by Mycroft')
+Traceback (most recent call last):
+  File ""/home/pi/mycroft-core/mycroft/skills/skill_loader.py"", line 292, in _create_skill_instance
+    self.instance = skill_module.create_skill()
+  File ""/opt/mycroft/skills/mycroft-stock.mycroftai/__init__.py"", line 131, in create_skill
+    return StockSkill()
+  File ""/opt/mycroft/skills/mycroft-stock.mycroftai/__init__.py"", line 91, in __init__
+    raise Exception('Skill has been intentionally disabled by Mycroft')
+Exception: Skill has been intentionally disabled by Mycroft
+2020-12-03 15:52:52.673 | ERROR    |  3150 | mycroft.skills.skill_loader:_communicate_load_status:351 | Skill mycroft-stock.mycroftai failed to load
+
+OK thanks Goldy
+I may look for/develop an alternative at some point.
+
+By the way you could also remove the skill to avoid log pollution.
+$ . mycroft-core/.venv/bin/activate
+$ msm remove mycroft-stock
+
+And if required, restart the  skills service.
+$ mycroft-start skills restart
+
+Thanks Goldy I will do that"
+28,Speach to text file - SIP / VOIP,General Discussion,"
+Is there a skill or a way to produce a text file from speach in mycroft ? I saw https://github.com/JarbasAI/mycroft-dictation-skill which I would need to modify but I am asking if there is something already available.
+I am in the process of creating sip/voip in mycroft, everything is working so far with preconfigured contacts. What I am missing is the dial part.
+","Set up a local copy of mozilla TTS and run that would probably be easiest.  Or another tacotron.  Or any other end-to-end tts tool that has pre-built models.
+You could also try mimic(1), but that sounds a bit clunky.
+
+
+
+
+GitHub
+
+
+
+JarbasSkills/skill-voip
+VOIP for mycroft. Contribute to JarbasSkills/skill-voip development by creating an account on GitHub.
+
+
+
+
+
+
+
+
+GitHub
+
+
+
+OpenJarbas/baresipy
+baresip python wrapper. Contribute to OpenJarbas/baresipy development by creating an account on GitHub.
+
+
+
+
+
+
+
+
+GitHub
+
+
+
+HelloChatterbox/text2speech
+Chatterbox TTS engines. Contribute to HelloChatterbox/text2speech development by creating an account on GitHub.
+
+
+
+
+
+have fun
+
+Thanks for the replies.
+The only thing I would need is to get a text file from a speach.
+
+
+
+
+GitHub
+
+
+
+Uberi/speech_recognition
+Speech recognition module for Python, supporting several engines and APIs, online and offline. - Uberi/speech_recognition
+
+
+
+
+
+
+I modified the .baresip/account to register with my provider but now i cannot get contacts to work in skill-voip. I tried editings in file .baresip/contacts, when I launch baresip from cli I see the contacts but it is not listed form mycroft-cli with command “contacts list”. I checked .baresip/mycroft_sip but not sure how to mod it."
+29,Can't hear Mycroft after starting Pandora,None,"Still running picroft in a RPI3 lol. I can get Mycroft to successfully start Pandora, but once I do I can no longer hear Mycroft until I reboot. Havent been able to narrow down the problem. Any suggestions?","
+Update: AutoVolume was clearly bugging, and the problem seems to have resolved now that I have removed it.
+"
