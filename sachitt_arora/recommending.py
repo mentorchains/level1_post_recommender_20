@@ -15,7 +15,7 @@ from nltk.corpus import stopwords
 
 def datacleaning(df):
      # removes the whitespace for comments and post info
-    # cleaning and building the data table to be further used by the recommend function until line 170
+    # cleaning and building the data table to be further used by the recommend function
     df['Post Info'] = df['Post Info'].str.replace('[{}]'.format(string.punctuation), '')
     df['Comments'] = df['Comments'].str.replace('[{}]'.format(string.punctuation), '')
     
@@ -24,6 +24,24 @@ def datacleaning(df):
 
     df['Comments'] = df['Comments'].apply(lambda x: " ".join(x for x in x.split() if x not in stopword))
     df['Post Info'] = df['Post Info'].apply(lambda x: " ".join(x for x in x.split() if x not in stopword))
+
+    #remove most common words and least common words
+    tenmostcomment = pd.Series(' '.join(df['Comments']).split()).value_counts()[:10] 
+    tenmostcomment = list(tenmostcomment.index)
+    df['Comments'] = df['Comments'].apply(lambda x: " ".join(x for x in x.split() if x not in tenmostcomment))
+
+    tenleastcomment = pd.Series(' '.join(df['Comments']).split()).value_counts()[-10:]
+    tenleastcomment = list(tenleastcomment.index)
+    df['Comments'] = df['Comments'].apply(lambda x: " ".join(x for x in x.split() if x not in tenleastcomment))
+
+    tenmost = pd.Series(' '.join(df['Post Info']).split()).value_counts()[:10] 
+    tenmost = list(tenmost.index)
+    df['Post Info'] = df['Post Info'].apply(lambda x: " ".join(x for x in x.split() if x not in tenmost))
+
+    tenleast = pd.Series(' '.join(df['Post Info']).split()).value_counts()[-10:]
+    tenleast = list(tenleast.index)
+    df['Post Info'] = df['Post Info'].apply(lambda x: " ".join(x for x in x.split() if x not in tenleast))
+
      
     return df
 
