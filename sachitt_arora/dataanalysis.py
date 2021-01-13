@@ -12,6 +12,12 @@ import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 
+def removestopwords(info):
+
+    stopword = stopwords.words('english')
+    info = ' '.join(x for x in str(info).split() if x not in stopword)
+    return info
+
 
 def datacleaning(df):
      # removes the whitespace for comments and post info
@@ -20,10 +26,11 @@ def datacleaning(df):
     df['Comments'] = df['Comments'].str.replace('[{}]'.format(string.punctuation), '')
     
     
-    stopword = stopwords.words('english')
+    
 
-    df['Comments'] = df['Comments'].apply(lambda x: " ".join(x for x in x.split() if x not in stopword))
-    df['Post Info'] = df['Post Info'].apply(lambda x: " ".join(x for x in x.split() if x not in stopword))
+    df['Comments'] = df['Comments'].apply(removestopwords)
+    
+    df['Post Info'] = df['Post Info'].apply(removestopwords)
 
     #remove most common words and least common words
     tenmostcomment = pd.Series(' '.join(df['Comments']).split()).value_counts()[:10] 
@@ -76,40 +83,14 @@ def modifyTable(df):
 
     return df
 
-
-def recommend(recommendtitle, df):
-    recommendations = []
-    ival = 0
-
-    count = CountVectorizer()
-    countmatrix = count.fit_transform(df['All words'])
-    cosinesimilarity = cosine_similarity(countmatrix, countmatrix)
-
-    #find index of the recommend title
-    for index, row in df.iterrows():
-        if df["Title"][index] == recommendtitle:
-            ival = index
-    #use index to find the cosinesimilarity of the index
-    scores = pd.Series(cosinesimilarity[ival]).sort_values(ascending = False)
-    top10 = list(scores.iloc[1:11].index)  
-    
-    for i in top10:  
-        recommendations.append(list(df['Title'])[i])
-
-    
-    return recommendations
-
-
-def run(recommendtitle):
-    df = pd.read_csv("/Users/sachittarora/Documents/GitHub/level1_post_recommender_20/sachitt_arora/project.csv")
+def run():
+    df = pd.read_csv("/Users/sachittarora/Documents/GitHub/level1_post_recommender_20/sachitt_arora/rawdata.csv")
 
     df = datacleaning(df)
 
     df = modifyTable(df)    
 
-    recommendedposts = recommend(recommendtitle, df)
+    df.to_csv("cleaneddata.csv")
 
-    print(recommendedposts)
-    
 
-run("Konnex domotica integrator")
+run()

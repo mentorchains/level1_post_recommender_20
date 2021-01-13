@@ -30,7 +30,7 @@ def getLinks(url):
     
     
 
-    for i in range(20): #scrolls down 60 times 
+    for i in range(20): 
         wd.execute_script("window.scrollTo(0, document.body.scrollHeight)")
         time.sleep(0.5)
         
@@ -97,7 +97,7 @@ def getData(url):
         postinfolist.append(mainpostinfo.lower())
         commentslist.append(commentsinfo.lower())
 
-        time.sleep(1)
+        
     except:
         return
 
