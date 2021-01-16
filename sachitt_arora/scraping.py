@@ -30,7 +30,7 @@ def getLinks(url):
     
     
 
-    for i in range(20): 
+    for i in range(200): 
         wd.execute_script("window.scrollTo(0, document.body.scrollHeight)")
         time.sleep(0.5)
         
@@ -124,7 +124,7 @@ def buildCSV():
     }
     )
     
-    datatable.to_csv("project.csv")
+    datatable.to_csv("rawdata.csv")
 
 clearCSV()
 buildCSV()
