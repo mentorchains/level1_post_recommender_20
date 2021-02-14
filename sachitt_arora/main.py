@@ -61,7 +61,7 @@ def main(df):
 def timetakes(model, train_df):
   starttime = timer()
   model.train_model(train_df)
-  elapsedtime = timer() - start
+  elapsedtime = timer() - starttime
   print(elapsedtime)
 
 
