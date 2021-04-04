@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<h1>Codeacademy Forum Post Classifier</h1>
+		
+	</div>
+	</header>
+	<div class="results">
+	<p> Your post falls into the <b style="color:blue;">{{prediction}}</b> category of the <a href="https://discuss.codecademy.com/">Codeacademy forum</a>.</p>
+	</div>
+
+</body>
+</html>
